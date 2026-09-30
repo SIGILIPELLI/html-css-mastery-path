@@ -1,0 +1,215 @@
+---
+title: "Free HTML & CSS Course: Semantic HTML, Accessibility, Flexbox, Grid & Modern CSS"
+description: "Free HTML and CSS course: 40 lessons on semantic HTML, accessibility, the cascade, Flexbox, Grid, container queries and responsive design."
+---
+
+# HTML & CSS Mastery Path
+
+<div class="mp-hero-lockup">
+  <div class="mp-hero-globe">
+    <svg viewBox="0 0 160 160" class="mp-globe-svg mp-mark">
+      <circle cx="80" cy="80" r="74" fill="var(--md-default-bg-color, #FAF7EF)" stroke="#2FA98D" stroke-width="5"/>
+      <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+      <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+      <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+      <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+      <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+    </svg>
+  </div>
+  <div class="mp-hero-divider"></div>
+  <div class="mp-hero-text">
+    <div class="mp-hero-title">Mastery Path</div>
+    <div class="mp-hero-sub">BOOTCAMP</div>
+    <div class="mp-hero-rule"></div>
+    <div class="mp-hero-byline">VINOD BHANUJA</div>
+  </div>
+</div>
+
+Every website, app screen and email you've ever read was drawn by a browser from HTML
+and CSS. They're the two languages nobody can avoid on the web, and two of the most
+underestimated. Most people learn enough to get a page on screen, then spend years
+fighting the same problems: a style that won't apply, a layout that breaks on phones, a
+`z-index` that does nothing, a form a screen-reader user can't complete. Nearly all of
+those problems disappear once you understand what the browser is actually doing with your
+markup and your rules — and that's what this course teaches.
+
+It starts from an empty file and ends at production. **Level 1** covers how browsers
+parse and render, document structure, semantic text, images, tables, forms, selectors,
+the cascade and the box model, ending with a validated recipe page. **Level 2** is layout
+and style: typography, colour and contrast, Flexbox and Grid in depth, positioning and
+stacking contexts, responsive design and custom properties, ending with a responsive,
+dark-mode product page. **Level 3** is accessibility and modern CSS: the accessibility
+tree, landmarks, keyboard and focus, ARIA, accessible forms, container queries, `:has()`,
+nesting, cascade layers, motion, and the native `<dialog>`, `<details>` and `popover`,
+ending with a keyboard-tested component gallery. **Level 4** is production: rendering and
+loading performance, CSS architecture, design tokens, internationalization and
+right-to-left layouts, metadata and structured data, print, browser support and automated
+testing, ending with a conference website and a complete quality pipeline.
+
+Every lesson has a **How It Actually Works** section — why the parser inserts a `<tbody>`
+you never wrote, how specificity is compared, why a flex item refuses to shrink below its
+content, why `z-index: 9999` loses to `z-index: 10`, why a container query can collapse
+its container to zero width.
+
+!!! note "Checked in real browsers — and honest about what couldn't be"
+    Examples in this course were run in headless Chromium and WebKit (Safari's engine)
+    while it was written, and the output shown — computed styles, measured box sizes,
+    accessibility trees, validator and linter messages, test results — is output we
+    actually observed, including first attempts that failed. Where something couldn't be
+    observed from an automated browser (screen-reader speech, search-engine behaviour,
+    Firefox in our environment), the lesson says so.
+
+## How the program is organized
+
+| Level | Focus | Modules |
+|-------|-------|---------|
+| [Level 1 · Entry](level-1/index.md) | How browsers render, document structure, semantic text and links, images and media, tables, forms, selectors, the cascade, the box model | 9 topics + 1 project (a recipe page) |
+| [Level 2 · Intermediate](level-2/index.md) | Typography, colour and contrast, Flexbox fundamentals and sizing, Grid fundamentals and advanced Grid, positioning and stacking, responsive design, custom properties | 9 topics + 1 project (a responsive product page) |
+| [Level 3 · Advanced](level-3/index.md) | Accessibility foundations, landmarks and headings, keyboard and focus, ARIA, accessible forms, container queries, modern selectors and layers, motion, native interactive elements | 9 topics + 1 project (an accessible component gallery) |
+| [Level 4 · Master](level-4/index.md) | Rendering and loading performance, CSS architecture, design tokens, logical properties and i18n, metadata and SEO, print, progressive enhancement, testing and auditing | 9 topics + 1 capstone (a conference website) |
+
+## How to use this site
+
+- **Keep a browser and an editor side by side.** Every lesson is meant to be typed and
+  tried. Code blocks are titled with a file name when they belong to a file you're
+  building.
+- **Live in devtools.** The Elements, Styles, Computed, Accessibility and Layout panels
+  answer most "why does it look like that?" questions faster than any article. Lessons
+  tell you which panel to open.
+- **Test like a user who isn't you.** Use the keyboard alone, zoom to 200%, switch to dark
+  mode, and try a screen reader — from Level 1 onward, not as an afterthought.
+- **Next steps.** When you're ready for scripting, continue with
+  [JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) and
+  [TypeScript Mastery Path](https://sigilipelli.github.io/typescript-mastery-path/); for
+  component frameworks, [React](https://sigilipelli.github.io/react-mastery-path/),
+  [Vue.js](https://sigilipelli.github.io/vue-mastery-path/) and
+  [Angular](https://sigilipelli.github.io/angular-mastery-path/) Mastery Paths all build on
+  what's here; for end-to-end testing, [Playwright Mastery Path](https://sigilipelli.github.io/playwright-mastery-path/).
+- Do the **Exercise** at the end of each lesson; the module-10 projects build on them.
+
+Start here → [Level 1 · Entry](level-1/index.md)
+
+
+🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@sigilipelli) on YouTube — Shorts and full walkthroughs of lessons across the series.
+
+## More from the Mastery Path series
+
+Free, structured, module-wise training across 75 other languages, platforms and disciplines:
+
+<div class="mastery-grid-wrap">
+<p class="mastery-grid-category">Languages</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/python-mastery-path/">🐍 Python</a>
+  <a href="https://sigilipelli.github.io/java-mastery-path/">☕ Java</a>
+  <a href="https://sigilipelli.github.io/javascript-mastery-path/">🟨 JavaScript</a>
+  <a href="https://sigilipelli.github.io/typescript-mastery-path/">🔷 TypeScript</a>
+  <a href="https://sigilipelli.github.io/csharp-mastery-path/">🔵 C#</a>
+  <a href="https://sigilipelli.github.io/shell-mastery-path/">🐚 Shell/Bash</a>
+  <a href="https://sigilipelli.github.io/powershell-mastery-path/">💻 PowerShell</a>
+  <a href="https://sigilipelli.github.io/c-mastery-path/">🇨 C</a>
+  <a href="https://sigilipelli.github.io/cpp-mastery-path/">➕ C++</a>
+  <a href="https://sigilipelli.github.io/go-mastery-path/">🐹 Go</a>
+  <a href="https://sigilipelli.github.io/rust-mastery-path/">🦀 Rust</a>
+  <a href="https://sigilipelli.github.io/sql-mastery-path/">🗄️ SQL</a>
+  <a href="https://sigilipelli.github.io/ruby-mastery-path/">💎 Ruby</a>
+  <a href="https://sigilipelli.github.io/php-mastery-path/">🐘 PHP</a>
+  <a href="https://sigilipelli.github.io/kotlin-mastery-path/">🟣 Kotlin</a>
+  <a href="https://sigilipelli.github.io/swift-mastery-path/">🐦 Swift</a>
+  <a href="https://sigilipelli.github.io/dart-mastery-path/">🎯 Dart</a>
+  <a href="https://sigilipelli.github.io/scala-mastery-path/">🔴 Scala</a>
+  <a href="https://sigilipelli.github.io/r-mastery-path/">📊 R</a>
+  <a href="https://sigilipelli.github.io/matlab-mastery-path/">🟧 MATLAB</a>
+</div>
+<p class="mastery-grid-category">Web Frameworks</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/react-mastery-path/">⚛️ React</a>
+  <a href="https://sigilipelli.github.io/nextjs-mastery-path/">▲ Next.js</a>
+  <a href="https://sigilipelli.github.io/angular-mastery-path/">🅰️ Angular</a>
+  <a href="https://sigilipelli.github.io/vue-mastery-path/">💚 Vue.js</a>
+  <a href="https://sigilipelli.github.io/html-css-mastery-path/">🎨 HTML & CSS</a>
+  <a href="https://sigilipelli.github.io/nodejs-mastery-path/">🟩 Node.js</a>
+  <a href="https://sigilipelli.github.io/spring-boot-mastery-path/">🍃 Spring Boot</a>
+</div>
+<p class="mastery-grid-category">Testing & QA</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/java-testing-mastery-path/">🧪 Java Testing</a>
+  <a href="https://sigilipelli.github.io/cpp-testing-mastery-path/">🧪 C/C++ Testing</a>
+  <a href="https://sigilipelli.github.io/python-testing-mastery-path/">🧪 Python Testing</a>
+  <a href="https://sigilipelli.github.io/automotive-testing-mastery-path/">🚗 Automotive Testing</a>
+</div>
+<p class="mastery-grid-category">Security</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/cybersecurity-mastery-path/">🛡️ Cybersecurity</a>
+</div>
+<p class="mastery-grid-category">Cloud Platforms</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/aws-mastery-path/">☁️ AWS</a>
+  <a href="https://sigilipelli.github.io/azure-mastery-path/">☁️ Azure</a>
+  <a href="https://sigilipelli.github.io/gcp-mastery-path/">☁️ GCP</a>
+  <a href="https://sigilipelli.github.io/ibm-cloud-mastery-path/">☁️ IBM Cloud</a>
+  <a href="https://sigilipelli.github.io/adobe-mastery-path/">🎨 Adobe</a>
+</div>
+<p class="mastery-grid-category">Data & Analytics</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/data-engineering-mastery-path/">🛠️ Data Engineering</a>
+  <a href="https://sigilipelli.github.io/data-science-mastery-path/">📈 Data Science</a>
+  <a href="https://sigilipelli.github.io/tableau-mastery-path/">📊 Tableau</a>
+  <a href="https://sigilipelli.github.io/excel-mastery-path/">📗 Excel</a>
+  <a href="https://sigilipelli.github.io/pyspark-mastery-path/">⚡ PySpark</a>
+  <a href="https://sigilipelli.github.io/etl-datalake-mastery-path/">🏞️ ETL & Data Lake</a>
+  <a href="https://sigilipelli.github.io/power-bi-mastery-path/">📉 Power BI</a>
+</div>
+<p class="mastery-grid-category">AI / ML / LLM</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/ai-ml-mastery-path/">🤖 AI/ML</a>
+  <a href="https://sigilipelli.github.io/llm-dev-mastery-path/">🧠 LLM Dev</a>
+  <a href="https://sigilipelli.github.io/rag-mastery-path/">📚 RAG</a>
+  <a href="https://sigilipelli.github.io/edge-ai-mastery-path/">📱 Edge AI</a>
+  <a href="https://sigilipelli.github.io/claude-training-mastery-path/">🔶 Claude Training</a>
+  <a href="https://sigilipelli.github.io/ai-tools-mastery-path/">🧰 AI Tools</a>
+  <a href="https://sigilipelli.github.io/ml-math-mastery-path/">➗ ML Math Foundations</a>
+  <a href="https://sigilipelli.github.io/prompt-engineering-mastery-path/">✍️ Prompt Engineering</a>
+  <a href="https://sigilipelli.github.io/ai-agents-mastery-path/">🕹️ AI Agents</a>
+</div>
+<p class="mastery-grid-category">Embedded Systems</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/embedded-mastery-path/">🔌 Embedded</a>
+  <a href="https://sigilipelli.github.io/embedded-linux-mastery-path/">🐧 Embedded Linux</a>
+  <a href="https://sigilipelli.github.io/embedded-python-mastery-path/">🐍 Embedded Python</a>
+  <a href="https://sigilipelli.github.io/freertos-mastery-path/">⏱️ FreeRTOS</a>
+  <a href="https://sigilipelli.github.io/s32k-mastery-path/">🔧 S32K</a>
+</div>
+<p class="mastery-grid-category">Leadership & Management</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/product-manager-mastery-path/">📋 Product Manager</a>
+  <a href="https://sigilipelli.github.io/product-lead-mastery-path/">🧭 Product Lead</a>
+  <a href="https://sigilipelli.github.io/project-manager-mastery-path/">📅 Project Manager</a>
+  <a href="https://sigilipelli.github.io/ai-manager-mastery-path/">🤖 AI Manager</a>
+  <a href="https://sigilipelli.github.io/servant-leadership-mastery-path/">🤝 Servant Leadership</a>
+</div>
+<p class="mastery-grid-category">Professional Skills</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/english-fluency-mastery-path/">🗣️ English Fluency & IELTS</a>
+  <a href="https://sigilipelli.github.io/workday-mastery-path/">🧑‍💼 Workday</a>
+</div>
+<p class="mastery-grid-category">Careers & Interviews</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/dsa-interview-mastery-path/">🧩 DSA & Coding Interviews</a>
+  <a href="https://sigilipelli.github.io/system-design-mastery-path/">🏗️ System Design</a>
+</div>
+<p class="mastery-grid-category">Process & APIs</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/agile-mastery-path/">🔄 Agile/Scrum/Kanban</a>
+  <a href="https://sigilipelli.github.io/rest-api-mastery-path/">🔗 REST API</a>
+  <a href="https://sigilipelli.github.io/playwright-mastery-path/">🎭 Playwright</a>
+</div>
+<p class="mastery-grid-category">Infrastructure & Ops</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/server-ops-mastery-path/">🖥️ Server Ops</a>
+  <a href="https://sigilipelli.github.io/nodemcu-mastery-path/">📶 NodeMCU/IoT</a>
+  <a href="https://sigilipelli.github.io/terraform-mastery-path/">🌍 Terraform</a>
+  <a href="https://sigilipelli.github.io/kubernetes-mastery-path/">☸️ Kubernetes</a>
+  <a href="https://sigilipelli.github.io/docker-mastery-path/">🐳 Docker</a>
+  <a href="https://sigilipelli.github.io/github-mastery-path/">🐙 GitHub & Git</a>
+</div>
+</div>

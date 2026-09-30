@@ -1,0 +1,113 @@
+site_name: HTML & CSS Mastery Path
+site_description: A structured HTML and CSS course from first page to production — semantic HTML, accessibility, the cascade, Flexbox, Grid, container queries, custom properties and responsive design — with every example checked in a real browser.
+site_url: https://sigilipelli.github.io/html-css-mastery-path/
+repo_url: https://github.com/sigilipelli/html-css-mastery-path
+repo_name: html-css-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · How Browsers Turn HTML & CSS into Pixels": level-1/01-how-browsers-render.md
+      - "02 · Document Structure & the Head Element": level-1/02-document-structure.md
+      - "03 · Text, Links & Semantic Meaning": level-1/03-text-links-semantics.md
+      - "04 · Images & Media": level-1/04-images-media.md
+      - "05 · Tables": level-1/05-tables.md
+      - "06 · Forms & Native Validation": level-1/06-forms.md
+      - "07 · CSS Syntax & Selectors": level-1/07-css-selectors.md
+      - "08 · The Cascade, Specificity & Inheritance": level-1/08-cascade-specificity.md
+      - "09 · The Box Model, Display & Units": level-1/09-box-model-units.md
+      - "10 · Project — A Recipe Page": level-1/10-project-recipe-page.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Typography & Web Fonts": level-2/01-typography.md
+      - "02 · Color, Backgrounds & Gradients": level-2/02-color-backgrounds.md
+      - "03 · Flexbox Fundamentals": level-2/03-flexbox-fundamentals.md
+      - "04 · Flexbox in Depth: How Sizes Are Resolved": level-2/04-flexbox-in-depth.md
+      - "05 · CSS Grid Fundamentals": level-2/05-grid-fundamentals.md
+      - "06 · Grid in Depth: auto-fit, Implicit Tracks & Subgrid": level-2/06-grid-in-depth.md
+      - "07 · Positioning & Stacking Contexts": level-2/07-positioning-stacking.md
+      - "08 · Responsive Design & Media Queries": level-2/08-responsive-design.md
+      - "09 · Custom Properties & Theming": level-2/09-custom-properties.md
+      - "10 · Project — A Responsive Product Page": level-2/10-project-product-page.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Accessibility Foundations & the Accessibility Tree": level-3/01-accessibility-foundations.md
+      - "02 · Landmarks, Headings & Navigation": level-3/02-landmarks-headings.md
+      - "03 · Keyboard Access & Focus Management": level-3/03-keyboard-focus.md
+      - "04 · ARIA: When and How to Use It": level-3/04-aria.md
+      - "05 · Accessible Forms & Error Handling": level-3/05-accessible-forms.md
+      - "06 · Container Queries": level-3/06-container-queries.md
+      - "07 · Modern Selectors, Nesting & Cascade Layers": level-3/07-modern-selectors-layers.md
+      - "08 · Transitions & Animations": level-3/08-transitions-animations.md
+      - "09 · Native Interactive Elements: details, dialog, popover": level-3/09-native-interactive-elements.md
+      - "10 · Project — An Accessible Component Gallery": level-3/10-project-component-gallery.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · The Rendering Pipeline & CSS Performance": level-4/01-rendering-performance.md
+      - "02 · Loading Performance: Critical CSS, Fonts & Layout Shift": level-4/02-loading-performance.md
+      - "03 · CSS Architecture at Scale": level-4/03-css-architecture.md
+      - "04 · Design Tokens & Theming Systems": level-4/04-design-tokens.md
+      - "05 · Logical Properties, Writing Modes & Internationalization": level-4/05-logical-properties-i18n.md
+      - "06 · Metadata, SEO & Structured Data": level-4/06-metadata-seo.md
+      - "07 · Print Styles & Other Media": level-4/07-print-styles.md
+      - "08 · Progressive Enhancement & Browser Support": level-4/08-progressive-enhancement.md
+      - "09 · Testing & Auditing HTML and CSS": level-4/09-testing-auditing.md
+      - "10 · Capstone — A Conference Website": level-4/10-capstone.md
