@@ -42,7 +42,7 @@ Three ideas carry this level:
 
 Complete [Level 2](../level-2/index.md), or be comfortable with Grid, Flexbox and custom
 properties. A few lessons use small amounts of JavaScript (event listeners, setting
-attributes); if that's new, [JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/)
+attributes); if that's new, [JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/)
 covers what you need. You'll also want:
 
 - **A screen reader to test with.** VoiceOver is built into macOS and iOS; NVDA is free

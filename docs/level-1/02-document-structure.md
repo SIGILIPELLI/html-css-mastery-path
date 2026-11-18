@@ -128,7 +128,7 @@ Two attributes change that:
 - `type="module"` scripts are deferred automatically.
 
 This course is about HTML and CSS; when you need JavaScript,
-[JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) covers it.
+[JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/) covers it.
 
 ## Worked example: a page skeleton you can reuse
 

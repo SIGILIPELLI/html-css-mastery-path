@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sigilipelli.github.io/html-css-mastery-path/sitemap.xml
+Sitemap: https://learnmasterypath.com/html-css-mastery-path/sitemap.xml

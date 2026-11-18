@@ -244,8 +244,8 @@ jobs:
 
 (Use the current major versions of the actions when you set this up. The baselines for
 this job must be generated on Linux, as noted above.) The
-[GitHub Mastery Path](https://sigilipelli.github.io/github-mastery-path/) covers Actions in
-depth, and [Playwright Mastery Path](https://sigilipelli.github.io/playwright-mastery-path/)
+[GitHub Mastery Path](https://learnmasterypath.com/github-mastery-path/) covers Actions in
+depth, and [Playwright Mastery Path](https://learnmasterypath.com/playwright-mastery-path/)
 covers the test runner.
 
 We ran the validation and test commands locally on macOS; we did not run this workflow on
