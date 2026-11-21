@@ -57,9 +57,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -131,3 +133,5 @@ nav:
       - "08 · Progressive Enhancement & Browser Support": level-4/08-progressive-enhancement.md
       - "09 · Testing & Auditing HTML and CSS": level-4/09-testing-auditing.md
       - "10 · Capstone — A Conference Website": level-4/10-capstone.md
+  - "🎯 Final Quiz": quiz.md
+
