@@ -234,7 +234,7 @@ A .row is a 600px flex container with three <i> items. Write CSS so the items ar
 
 **Starter code**
 
-```python
+```css
 /* .a, .b, .c are children of .row (display:flex; width:600px) */
 .a { }
 .b { }
@@ -263,7 +263,7 @@ Make `.gallery` a grid that fits as many columns of at least 200px as will fit a
 
 **Starter code**
 
-```python
+```css
 .gallery {
   display: grid;
   /* your columns here */
