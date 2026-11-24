@@ -1,6 +1,6 @@
 ---
 title: "Free HTML & CSS Course: Semantic HTML, Accessibility, Flexbox, Grid & Modern CSS"
-description: "Free HTML and CSS course: 40 lessons on semantic HTML, accessibility, the cascade, Flexbox, Grid, container queries and responsive design."
+description: "Free HTML and CSS course: 36 lessons and 4 projects on semantic HTML, accessibility, the cascade, Flexbox, Grid, container queries and responsive design."
 ---
 
 # HTML & CSS Mastery Path
